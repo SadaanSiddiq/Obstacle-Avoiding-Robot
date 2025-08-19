@@ -11,7 +11,9 @@ Features:
 
 The problem I faced was:False or unstable distance readingS(A common problem faced while useing ultrasonic sensor)
 How I fixed it : Add a short delay (10–20 ms) between distance checks.
-Code:
+ Cicuit diagram:<img width="882" height="637" alt="Screenshot 2025-08-19 173323" src="https://github.com/user-attachments/assets/d5a26397-928e-4054-83e6-a9abfc219189" />
+
+ Code:
 int trig = 12;
 int echo = 8;
 int m1 = 13;
